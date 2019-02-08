@@ -21,3 +21,14 @@ This is a Ruby on Rails project to explore ruby's [GraphQL gem](https://graphql-
 
 #### GraphiQL
 You can run a GraphQL IDE to test run GraphQL queries by going [here](http://localhost:3000/graphiql) if the server is running.
+
+Try out a simple query like:
+```
+{
+  allLinks{
+    id
+    url
+    description
+  }
+}
+```
