@@ -3,7 +3,7 @@
 ### Intro
 This is a Ruby on Rails project to explore ruby's [GraphQL gem](https://graphql-ruby.org/) by building a GraphQL server.
 
-### Scope
+### Project Scope
 + Show a list of links
 + Authentication system
 + Users can create new links
