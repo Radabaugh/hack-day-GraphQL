@@ -20,7 +20,4 @@ This is a Ruby on Rails project to explore ruby's [GraphQL gem](https://graphql-
 ### Testing
 
 #### GraphiQL
-You can run a GraphQL IDE to test run GraphQL queries with this command: 
-```ruby
-http://localhost:3000/graphiql # The server needs to be running
-```
+You can run a GraphQL IDE to test run GraphQL queries by going [here](http://localhost:3000/graphiql) if the server is running.
