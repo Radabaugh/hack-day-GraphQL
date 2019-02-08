@@ -16,3 +16,11 @@ This is a Ruby on Rails project to explore ruby's [GraphQL gem](https://graphql-
 2.) Run `bundle install` to install dependencies
 
 3.) Start the rails server with `rails s`
+
+### Testing
+
+#### GraphiQL
+You can run a GraphQL IDE to test run GraphQL queries with this command: 
+```ruby
+http://localhost:3000/graphiql # The server needs to be running
+```
