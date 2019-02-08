@@ -17,6 +17,15 @@ This is a Ruby on Rails project to explore ruby's [GraphQL gem](https://graphql-
 
 3.) Start the rails server with `rails s`
 
+#### Creating Links
+Open the rails console with `rails c`
+```bash
+irb(main):001:0> Link.create url: 'http://graphql.org/', description: 'The Best Query Language'
+irb(main):002:0> Link.create url: 'http://dev.apollodata.com/', description: 'Awesome GraphQL Client'
+exit
+
+```
+
 ### Testing
 
 #### GraphiQL
