@@ -22,7 +22,7 @@ Open the rails console with `rails c`
 ```bash
 irb(main):001:0> Link.create url: 'http://graphql.org/', description: 'The Best Query Language'
 irb(main):002:0> Link.create url: 'http://dev.apollodata.com/', description: 'Awesome GraphQL Client'
-exit
+irb(main):003:0> exit
 
 ```
 
