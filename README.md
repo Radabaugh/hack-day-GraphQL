@@ -94,3 +94,4 @@ You can expect to see output that looks like this:
 ```
 
 ### Testing
+Tests can be run with `bundle exec rails test`
