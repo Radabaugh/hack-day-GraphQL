@@ -56,6 +56,39 @@ You can expect to see output that looks like this:
 }
 ```
 
+#### Creating Users with Mutations
+Put the code below into the left panel of GraphiQL, and press the `play` button.
+```
+mutation {
+  createUser(
+    name: "Radoslav Stankov",
+    authProvider: {
+      email: {
+        email: "rado@example.com",
+        password: "123456"
+      }
+    }
+  ) {
+    id
+    email
+    name
+  }
+}
+```
+
+You can expect to see output that looks like this:
+```
+{
+  "data": {
+    "createUser": {
+      "id": "1",
+      "email": "rado@example.com",
+      "name": "Radoslav Stankov"
+    }
+  }
+}
+```
+
 #### Trying Out Queries with GraphiQL
 Try out a simple query like:
 ```
