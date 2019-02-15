@@ -17,4 +17,6 @@ This is a Ruby on Rails project to explore ruby's [GraphQL gem](https://graphql-
 
 3.) Start the rails server with `rails s`
 
+### Use
+
 See the [wiki](https://github.com/Radabaugh/hack-day-GraphQL/wiki) for how to use this project.
