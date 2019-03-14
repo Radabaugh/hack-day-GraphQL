@@ -22,4 +22,5 @@ This is a Ruby on Rails project to explore ruby's [GraphQL gem](https://graphql-
 See the [wiki](https://github.com/Radabaugh/hack-day-GraphQL/wiki) for how to use this project.
 
 ### Test
+
 Tests can be run with `bundle exec rails test`
