@@ -1,6 +1,25 @@
-<h1>Links</h1>
+<section class="jumbotron text-center">
+  <div class="container">
+    <h1 class="jumbotron-heading">Super Awesome Amazing Links For Things</h1>
+    <h4>But, you have to copy paste them because, they're just text!</h4>
+  </div>
+</section>
 
-<%= @links.each do |link| %>
-  <%= link.url %>
-  <br>
-<% end %>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Link</th>
+      <th scope="col">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <%= Link.all.each_with_index do |link, i| %>
+      <tr>
+        <th scope="row"><%= i %></th>
+        <td><%= link.url %></td>
+        <td><%= link.description %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
